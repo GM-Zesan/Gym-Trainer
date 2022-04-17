@@ -1,0 +1,31 @@
+
+.hero-container {
+    background-image: url("../../../images/banner/b1.jpg");
+    max-height: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.hero-container .heading {
+    text-align: left;
+    padding: 0px 0px 0px 120px;
+    color: #fff;
+}
+.hero-container .heading h2 {
+    font-size: 3em;
+}
+.hero-container .heading p {
+    font-size: 1.7em;
+    margin: 16px 0px 38px;
+}
+.hero-container .heading a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 19px;
+    border: 2px double #f23849;
+    text-transform: uppercase;
+}
