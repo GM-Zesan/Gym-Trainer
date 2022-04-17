@@ -1,0 +1,26 @@
+[
+    {
+        "id": "625c3d88ef5c73d83b3c5507",
+        "image": "http://placehold.it/32x32",
+        "icon": "https://i.ibb.co/RP64k7t/yoga.png",
+        "price": 37,
+        "name": "Yoga",
+        "description": "Commodo ullamco sint laborum ad voluptate occaecat ea. Ad ex mollit officia occaecat esse dolor proident irure sit eiusmod sit anim culpa.\r\n"
+    },
+    {
+        "id": "625c3d8817de8cd0163e6395",
+        "image": "http://placehold.it/32x32",
+        "icon": "https://i.ibb.co/XtNN6fb/weightloss.png",
+        "price": 22,
+        "name": "Weight-Loss",
+        "description": "Nisi veniam sunt laboris aliqua ullamco nulla. Magna minim sit nostrud qui sit ea do culpa culpa occaecat ullamco.\r\n"
+    },
+    {
+        "id": "625c3d885ba2d60275019b54",
+        "image": "http://placehold.it/32x32",
+        "icon": "https://i.ibb.co/zZWLbYJ/body.png",
+        "price": 33,
+        "name": "Body-Building",
+        "description": "Sint ad pariatur fugiat non magna eu non amet qui reprehenderit laboris esse cillum. Do consectetur eu culpa sit reprehenderit exercitation.\r\n"
+    }
+]

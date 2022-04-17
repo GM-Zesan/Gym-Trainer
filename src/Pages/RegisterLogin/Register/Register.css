@@ -1,0 +1,11 @@
+.reg{
+    border: 5px solid #f23849;
+}
+
+.reg-toggle a{
+    color: #f23849;
+    text-decoration: none;
+}
+.reg-toggle a:hover{
+    color: #de0618;
+}
