@@ -1,0 +1,50 @@
+nav.navbar {
+    height: 80px;
+}
+.logo {
+    max-width: 150px;
+}
+a.nav-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 14px;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+a.nav-link:hover {
+    border-bottom: 2px solid #f65a5b;
+    transition: 0.5s all ease;
+}
+.hero-container {
+    background-image: url("../../../images/banner/b1.jpg");
+    max-height: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.hero-container .heading {
+    text-align: left;
+    padding: 0px 0px 0px 120px;
+    color: #fff;
+}
+.hero-container .heading h2 {
+    font-size: 3em;
+}
+.hero-container .heading p {
+    font-size: 1.7em;
+    margin: 16px 0px 38px;
+}
+.hero-container .heading a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 19px;
+    border: 2px double #f65a5b;
+    text-transform: uppercase;
+}
