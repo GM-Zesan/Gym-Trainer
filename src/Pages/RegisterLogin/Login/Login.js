@@ -5,6 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
+import SocialAuth from "../SocialAuth/SocialAuth";
 import "./Login.css";
 const Login = () => {
     const navigate = useNavigate();
@@ -112,6 +113,7 @@ const Login = () => {
                                     Register
                                 </Link>
                             </p>
+                            <SocialAuth></SocialAuth>
                         </div>
                     </div>
                 </div>

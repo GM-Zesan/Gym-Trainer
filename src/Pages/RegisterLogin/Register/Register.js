@@ -6,6 +6,7 @@ import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from "react-firebase-hooks/auth";
 import "./Register.css";
+import SocialAuth from "../SocialAuth/SocialAuth";
 const Register = () => {
     const [terms, setTerms] = useState(false);
     const navigate = useNavigate();
@@ -107,6 +108,7 @@ const Register = () => {
                         Login
                     </Link>
                 </p>
+                <SocialAuth></SocialAuth>
             </div>
             <Footer></Footer>
         </div>
