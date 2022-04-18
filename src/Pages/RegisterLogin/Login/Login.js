@@ -52,15 +52,14 @@ const Login = () => {
             <Header></Header>
             <div className="container">
                 <div className="row justify-content-center mt-5">
-                    <div className="col-md-12 col-lg-10"></div>
                     <div className="wrap d-md-flex">
-                        <div className="img">
-                            <img
+                        <div className="img col-md-6">
+                            <img className="w-100"
                                 src="https://preview.colorlib.com/theme/bootstrap/login-form-14/images/xbg-1.jpg.pagespeed.ic.3OAd9jZTMD.webp"
                                 alt=""
                             />
                         </div>
-                        <div className="login-wrap p-5 p-md-5">
+                        <div className="col-md-6 login-wrap p-5 p-md-5">
                             <h2 className="text-center mb-5">Login Here</h2>
                             <Form onSubmit={handleLogin}>
                                 <Form.Group

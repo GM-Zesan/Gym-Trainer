@@ -2,16 +2,20 @@ import { signOut } from "firebase/auth";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
 import logo from "../../../logo.png";
 import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
+    const navigate = useNavigate();
     const [user] = useAuthState(auth);
     const handleLogOut = () => {
         signOut(auth);
     };
+    const navigteLogIn = () => {
+        navigate("/login")
+    }
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
             <Container>
@@ -29,9 +33,6 @@ const Header = () => {
                         <CustomLink className="nav-link" to="/">
                             Home
                         </CustomLink>
-                        <CustomLink className="nav-link" to="/temp">
-                            temp
-                        </CustomLink>
                         <CustomLink className="nav-link" to="/blog">
                             Blog
                         </CustomLink>
@@ -41,16 +42,20 @@ const Header = () => {
                     </Nav>
                     <Nav className="ms-auto">
                         {user ? (
-                            <CustomLink
-                                className="nav-link"
+                            <button
+                                className="nav-link log-detail"
                                 onClick={handleLogOut}
                             >
                                 Logout
-                            </CustomLink>
+                            </button>
                         ) : (
-                            <CustomLink className="nav-link" to="/login">
+                            <button
+                                className="nav-link log-detail"
+                                onClick={navigteLogIn}
+                                to="/login"
+                            >
                                 Login
-                            </CustomLink>
+                            </button>
                         )}
                     </Nav>
                 </Navbar.Collapse>

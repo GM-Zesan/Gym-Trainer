@@ -1,11 +1,11 @@
-.card-degine{
-    background-color: #272a31!important;
+.card-degine {
+    background-color: #272a31 !important;
     text-align: center;
     padding: 50px 40px;
-    border-radius: 10px!important;
+    border-radius: 10px !important;
 }
-.card-degine::before{
-    content: '';
+.card-degine::before {
+    content: "";
     position: absolute;
     width: 95%;
     height: 95%;
@@ -15,36 +15,36 @@
     margin-top: 40px;
     transform: translate(-50%, -50%);
     border: 7px solid #f23849;
-    transition: .4s ease-in-out;
+    transition: 0.4s ease-in-out;
     pointer-events: none;
 }
 .card-degine:hover:before {
     margin-top: 0;
     opacity: 1;
 }
-.card-degine img{
+.card-degine img {
     width: 141px;
 }
-.card-body h3{
+.card-body h3 {
     margin: 25px 0 6px;
     text-transform: uppercase;
     color: #fff;
 }
-.card-body h5{
+.card-body h5 {
     color: #fff;
 }
-hr{
-    color: #f23849!important;
-    height: 3px!important;
+hr {
+    color: #f23849 !important;
+    height: 3px !important;
 }
-.card-body p{
+.card-body p {
     color: #bebebe;
     font-size: 15px;
     margin-bottom: 45px;
 }
-.btn-checkout{
+.btn-checkout {
     font-size: 16px;
-    padding: 6px 40px 6px;
+    padding: 6px 20px 6px;
     border: 2px solid #f23849;
     background-color: #f23849;
     font-weight: 600;
@@ -52,10 +52,10 @@ hr{
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    transition: .25s ease-in;
+    transition: 0.25s ease-in;
     color: #fff;
 }
-.btn-checkout:hover{
+.btn-checkout:hover {
     background-color: transparent;
     color: #f23849;
     text-decoration: none;
