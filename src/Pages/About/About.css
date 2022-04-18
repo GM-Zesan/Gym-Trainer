@@ -1,0 +1,55 @@
+.form_box{
+    border-radius: 12px;
+    box-shadow: 0 26px 64px rgba(26,96,152,0.05);
+    padding: 35px 50px 50px;
+    margin-top: 50px;
+}
+.input_box{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #F3F6F8;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+textarea.input_box{
+    resize: none;
+    height: 198px;
+    padding-top: 10px;
+}
+.input_box:focus{
+    border-color: #142270;
+}
+.label_text{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #4D6E81;
+    display: block;
+}
+.button.black_btn{
+    min-width: 267px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 19px;
+    padding: 20px 25px;
+    background-color: #f23849;
+}
+.button.black_btn:hover{
+    background-color: transparent;
+    color: #f23849;
+    border: 2px solid #f23849;
+}
