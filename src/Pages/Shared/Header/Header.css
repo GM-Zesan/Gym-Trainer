@@ -1,6 +1,9 @@
 nav.navbar {
     height: 80px;
 }
+.navbar-nav{
+    align-items: center;
+}
 .logo {
     max-width: 150px;
 }
@@ -17,4 +20,7 @@ a.nav-link {
 a.nav-link:hover {
     border-bottom: 2px solid #f23849;
     transition: 0.5s all ease;
+}
+a.nav-link.active {
+    border-bottom: 2px solid #f23849;
 }

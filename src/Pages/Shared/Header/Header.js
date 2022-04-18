@@ -5,16 +5,17 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../../firebase.init";
 import logo from "../../../logo.png";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
     const [user] = useAuthState(auth);
-    const handleSignOut = () => {
+    const handleLogOut = () => {
         signOut(auth);
     };
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand to="/">
                     <img
                         src={logo}
                         width="170"
@@ -25,26 +26,28 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link as={Link} to="/">
+                        <CustomLink className="nav-link" to="/">
                             Home
-                        </Nav.Link>
-                        <Nav.Link as={Link} to="/about">
-                            About
-                        </Nav.Link>
-                        <Nav.Link as={Link} to="/blog">
+                        </CustomLink>
+                        <CustomLink className="nav-link" to="/blog">
                             Blog
-                        </Nav.Link>
+                        </CustomLink>
+                        <CustomLink className="nav-link" to="/about">
+                            About
+                        </CustomLink>
                     </Nav>
                     <Nav className="ms-auto">
                         {user ? (
-                            <Nav.Link href="/login" onClick={handleSignOut}>
+                            <CustomLink
+                                className="nav-link"
+                                onClick={handleLogOut}
+                            >
                                 Logout
-                            </Nav.Link>
-                            
+                            </CustomLink>
                         ) : (
-                            <Nav.Link as={Link} to="/login">
+                            <CustomLink className="nav-link" to="/login">
                                 Login
-                            </Nav.Link>
+                            </CustomLink>
                         )}
                     </Nav>
                 </Navbar.Collapse>

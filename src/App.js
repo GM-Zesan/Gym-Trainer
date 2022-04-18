@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import NoPage from "./NoPage/NoPage";
 import About from "./Pages/About/About";
 import Blog from "./Pages/Blog/Blog";
 import Checkout from "./Pages/Checkout/Checkout";
 import Home from "./Pages/Home/Home/Home";
+import NoPage from "./Pages/NoPage/NoPage";
 import Login from "./Pages/RegisterLogin/Login/Login";
 import Register from "./Pages/RegisterLogin/Register/Register";
 import RequireAuth from "./Pages/RegisterLogin/RequireAuth/RequireAuth";
