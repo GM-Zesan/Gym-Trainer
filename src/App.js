@@ -8,7 +8,6 @@ import NoPage from "./Pages/NoPage/NoPage";
 import Login from "./Pages/RegisterLogin/Login/Login";
 import Register from "./Pages/RegisterLogin/Register/Register";
 import RequireAuth from "./Pages/RegisterLogin/RequireAuth/RequireAuth";
-import Temp from "./Pages/Temp/Temp";
 
 function App() {
     return (
