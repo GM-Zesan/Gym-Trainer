@@ -8,6 +8,7 @@ import NoPage from "./Pages/NoPage/NoPage";
 import Login from "./Pages/RegisterLogin/Login/Login";
 import Register from "./Pages/RegisterLogin/Register/Register";
 import RequireAuth from "./Pages/RegisterLogin/RequireAuth/RequireAuth";
+import Temp from "./Pages/Temp/Temp";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 </RequireAuth>}></Route>
                 <Route path="/about" element={<About></About>}></Route>
                 <Route path="/blog" element={<Blog></Blog>}></Route>
+                <Route path="/temp" element={<Temp></Temp>}></Route>
                 <Route path="/login" element={<Login></Login>}></Route>
                 <Route path="/register" element={<Register></Register>}></Route>
                 <Route path="*" element={<NoPage></NoPage>}></Route>
