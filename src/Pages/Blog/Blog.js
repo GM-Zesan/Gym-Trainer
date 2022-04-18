@@ -15,15 +15,10 @@ const Blog = () => {
                             Difference between authorization and authentication
                         </Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            Authentication is the process of verifying who
+                            someone is. Authorization is the process of
+                            verifying what specific application, files and data
+                            a user has access to.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
@@ -32,15 +27,15 @@ const Blog = () => {
                             you have to implement authentication?
                         </Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            I am using firebse because it is a commplete package
+                            of products that allows us to build web and mobile
+                            application. It improves the application quality and
+                            help your clients grow their business. it creates
+                            Application without backend server.It brings a
+                            highly secure authentication system that improves
+                            the user experience while they sign-up and sign-in.
+                            The other options are Parse, Back4App,
+                            Kuzzle, Couchbase, Flutter.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">

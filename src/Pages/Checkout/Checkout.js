@@ -7,8 +7,6 @@ import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import "./Checkout.css"
 const Checkout = () => {
-    const [user] = useAuthState(auth);
-    console.log(user);
 
     const { checkoutId } = useParams();
     const handleBooking = (event) => {
